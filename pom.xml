@@ -118,6 +118,7 @@
         <configuration>
           <passphraseEnvName>GPG_PASSPHRASE</passphraseEnvName>
           <gpgArguments>
+            <arg>--no-tty</arg>
             <arg>--pinentry-mode</arg>
             <arg>loopback</arg>
           </gpgArguments>
