@@ -117,11 +117,6 @@
         </executions>
         <configuration>
           <passphraseEnvName>GPG_PASSPHRASE</passphraseEnvName>
-          <gpgArguments>
-            <arg>--batch</arg>
-            <arg>--pinentry-mode</arg>
-            <arg>loopback</arg>
-          </gpgArguments>
         </configuration>
       </plugin>
     </plugins>
