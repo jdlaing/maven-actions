@@ -116,6 +116,7 @@
           </execution>
         </executions>
         <configuration>
+          <useAgent>false</useAgent>
           <passphraseEnvName>GPG_PASSPHRASE</passphraseEnvName>
         </configuration>
       </plugin>
