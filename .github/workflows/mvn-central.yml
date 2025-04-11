@@ -38,5 +38,5 @@ jobs:
       - name: Publish to Maven Central
         run: mvn clean deploy -s $GITHUB_WORKSPACE/settings.xml
         env:
-          CENTRAL_USERNAME: ${{ secrets.CENTRAL_USERNAME }}
-          CENTRAL_TOKEN: ${{ secrets.CENTRAL_TOKEN }}
+          CENTRAL_USERNAME: ${{ secrets.SONATYPE_USERNAME }}
+          CENTRAL_TOKEN: ${{ secrets.SONATYPE_TOKEN }}
